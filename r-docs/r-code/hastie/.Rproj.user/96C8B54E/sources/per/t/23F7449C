@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1534190062751.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3239437526",
+    "id" : "23F7449C",
+    "lastKnownWriteTime" : 1506236482,
+    "last_content_update" : 1506236482,
+    "path" : "~/Dropbox/Training/Programming/R/ISLR/r-code/hastie/ch2-applied.R",
+    "project_path" : "ch2-applied.R",
+    "properties" : {
+        "cursorPosition" : "6,46",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

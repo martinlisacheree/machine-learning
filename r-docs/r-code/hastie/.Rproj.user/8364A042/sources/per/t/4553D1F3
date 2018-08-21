@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1534246263597.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1581632397",
+    "id" : "4553D1F3",
+    "lastKnownWriteTime" : 1534190777,
+    "last_content_update" : 1534190777,
+    "path" : "C:/Users/dvanlill/Dropbox/Training/Programming/R/ISLR/r-code/hastie/ch2-intro.R",
+    "project_path" : "ch2-intro.R",
+    "properties" : {
+        "cursorPosition" : "59,29",
+        "scrollLine" : "63"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

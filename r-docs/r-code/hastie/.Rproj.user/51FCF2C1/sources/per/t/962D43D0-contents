@@ -1,0 +1,32 @@
+## Chapter 2 - Introduction to R
+
+# Interesting, c() is actually a function. It is the concatenate function.
+# I have seen most of the ideas in this document before. 
+# 
+# There is, however, some cool stuff on contour plots here. 
+
+x = seq(1,10)
+y = x
+
+f = outer(x, y, function(x,y) cos(y)/(1+x^2))
+contour(x, y, f)
+contour(x, y, f, nlevels = 45, add = T)
+fa = (f - t(f))/2
+contour(x, y, fa, nlevels = 15)
+
+# These plots below are awesome!!
+
+image(x,y,fa) # This provides a heatmap
+persp(x,y,fa) # This provides a three dimensional plot 
+persp(x,y,fa,theta=30)
+persp(x,y,fa,theta=30,phi=20)
+persp(x,y,fa,theta=30,phi=70)
+persp(x,y,fa,theta=30,phi=40)
+
+
+curve(82*x, from=0, to=10, xlab="flexibility", ylab="MSE", col="white")  
+curve(300*cos(x/3)+500+x^3/3, add=TRUE, col="red", lwd=2)  # test error
+curve(x^3/3, add=TRUE, col="orange", lwd=2)                # variance
+curve(0*x+250, add=TRUE, col="gray", lwd=2)                # irreducible error
+curve(300*cos(x/3)+350, add=TRUE, col="green", lwd=2)      # bias
+curve(225*cos(x/3)+450, add=TRUE, col="blue", lwd=2)       # train error
